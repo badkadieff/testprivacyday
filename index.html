@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Day 2026. Приватность в условиях ограничений</title>
+    <meta name="description" content="Международная конференция о приватности, защите персональных данных и балансе между доступом к информации и тайной частной жизни">
+    <meta property="og:url" content="https://2026.privacyday.net">
+    <meta property="og:title" content="Privacy Day 2026. Приватность в условиях ограничений">
+    <meta property="og:description" content="Международная конференция о приватности, защите персональных данных и балансе между доступом к информации и тайной частной жизни">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="images/Favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Главная-->
+    <div class="bg-[url('images/1920-1080.webp')] bg-cover bg-center bg-no-repeat ">
+        <div class="  mx-auto  max-w-[300px] min-[480px]:max-w-[460px] min-[640px]:max-w-[620px] min-[960px]:max-w-[930px] min-[1200px]:max-w-[1200px] mx-auto pb-9 px-[0px] min-[960px]:px-[20px] ">
+            <header class="flex justify-between items-center from-teal-400 via-teal-200 to-teal-400 py-6 mx-auto ">
+                <a href="index.html" class="text-3xl font-semibold tracking-wide text-black">
+                    <img src="images/2026logo.svg" alt="Privacy Day 2026" class="w-[83px] min-[640px]:w-[103px] min-[980px]:w-[90px] h-auto">
+                </a>
+                <div class="flex space-x-8  hidden min-[980px]:block">
+                    <a href="#contacts" class="text-[18px] text-[#083f2a] font-medium">Связаться с нами</a>
+                    <div class="relative inline-block text-left">
+                        <button id="ddBtn" type="button" class="inline-flex items-center gap-1 text-[18px] text-slate-900 font-medium" aria-haspopup="menu" aria-expanded="false">  
+                            О Privacy Day
+                             <svg class="w-2.5 h-2.5" viewBox="0 0 12 12" fill="currentColor">
+                                <path d="M2 4L6 8L10 4Z" />
+                            </svg>
+                        </button>
+                        <div id = "ddMenu" class="hidden absolute left-1/2 -translate-x-1/2 mt-3 w-60 sm:w-64 z-50" role="menu" aria-label="О Privacy Day">
+                            <div class="absolute -top-2 left-1/2 -translate-x-1/2 w-0 h-0 border-l-[8px] border-l-transparent border-r-[8px] border-r-transparent border-b-[8px] border-b-[#071a14]"></div>
+                            <div class="rounded-[22px] bg-[#071a14] shadow-2xl px-6 py-6">
+                                <div class="flex flex-col items-center text-center">
+                                    <a href="#organizations" class="text-[18px] font-medium tracking-wide text-[#00F9BA] hover:text-emerald-100">
+                                        Организаторы
+                                    </a>
+                                    <a href="conference.html" class="mt-4 text-[18px] font-medium tracking-wide text-[#00F9BA] hover:text-emerald-100">
+                                        О конференции
+                                    </a>
+                                    <div class="mt-6 h-px w-6 bg-emerald-200/80"></div>
+                                    <div class="mt-6 flex flex-col gap-3">
+                                        <a href="https://2025.privacyday.net/" class="text-[18px] font-medium text-[#00F9BA] hover:text-emerald-100" target="_blank">2025</a>
+                                        <a href="https://2024.privacyday.net/" class="text-[18px] font-medium text-[#00F9BA] hover:text-emerald-100" target="_blank">2024</a>
+                                        <a href="https://2023.privacyday.net/" class="text-[18px] font-medium text-[#00F9BA] hover:text-emerald-100" target="_blank">2023</a>
+                                        <a href="https://2022.privacyday.net/" class="text-[18px] font-medium text-[#00F9BA] hover:text-emerald-100" target="_blank">2022</a>
+                                        <a href="https://2021.privacyday.net/" class="text-[18px] font-medium text-[#00F9BA] hover:text-emerald-100" target="_blank">2021</a>
+                                        <a href="https://2020.privacyday.net/" class="text-[18px] font-medium text-[#00F9BA] hover:text-emerald-100" target="_blank">2020</a>
+                                        <a href="https://2019.privacyday.net/" class="text-[18px] font-medium text-[#00F9BA] hover:text-emerald-100" target="_blank">2019</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button id="menuOpen" class="group hidden max-[979px]:flex fixed top-[20px] right-[20px] z-50 w-[48px] h-[48px] items-center justify-center rounded-full bg-[#071a14]">
+                <span class="sr-only">Открыть меню</span>
+                <div class="flex flex-col justify-between w-[22px] h-[14px]">
+                    <span class="block h-[2px] bg-[#00FEC6] transition-transform duration-200 ease-out group-hover:translate-y-[1px] group-hover:scale-x-[0.95]"></span>
+                    <span class="block h-[2px] bg-[#00FEC6] transition-transform duration-200 ease-out group-hover:scale-x-[0.9]"></span>
+                    <span class="block h-[2px] bg-[#00FEC6] transition-transform duration-200 ease-out group-hover:-translate-y-[1px] group-hover:scale-x-[0.95]"></span>
+                </div>
+                </button>
+
+
+            </header>
+
+            
+            <div id="menuOverlay" class="fixed inset-0 bg-black/60 opacity-0 pointer-events-none transition-opacity duration-200 z-40"></div>
+            <aside id="sideMenu" class=" fixed top-0 right-0 h-dvh w-[300px] max-w-[85vw] bg-[#202020] text-emerald-200 translate-x-full transition-transform duration-200 z-50 px-[40px] py-12">
+                <button id="menuClose" class="absolute right-6 top-6 p-2">
+                    <span class="sr-only">Закрыть меню</span>
+                    <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none">
+                        <path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <div class="mb-7 w-[120px] h-auto">
+                    <a href="index.html">
+                        <img src="images/2026logo_.svg" alt="Privacy Day 2026" class="w-[140px] h-auto">
+                    </a>
+                </div>
+                <nav class="flex flex-col gap-5 text-[18px] leading-[1.1]">
+                    <a class="text-[#00FEC6] hover:text-[#218A6B] transition-colors duration-200" href="#organizations">Организаторы</a>
+                    <a class="text-[#00FEC6] hover:text-[#218A6B] transition-colors duration-200" href="#contacts">Контакты</a>
+                    <button id="prevToggle" class="flex items-center justify-between gap-3 text-left leading-[1.3] text-[#00FEC6] hover:text-[#218A6B] transition-colors duration-200">
+                        <span>Предыдущие<br>конференции</span>
+                        <svg id="prevIcon" class="w-4 h-4 transition-transform" viewBox="0 0 12 12" fill="currentColor">
+                            <path d="M2 4L6 8L10 4Z"></path>
+                        </svg>
+                    </button>
+                    <div id="prevList" class="hidden flex-col gap-6 pt-1 text-[18px]">
+                        <a class="text-[#00FEC6] hover:text-[#218A6B] transition-colors duration-200" href="https://2025.privacyday.net/" target="_blank">2025</a>
+                        <a class="text-[#00FEC6] hover:text-[#218A6B] transition-colors duration-200" href="https://2024.privacyday.net/" target="_blank">2024</a>
+                        <a class="text-[#00FEC6] hover:text-[#218A6B] transition-colors duration-200" href="https://2023.privacyday.net/" target="_blank">2023</a>
+                        <a class="text-[#00FEC6] hover:text-[#218A6B] transition-colors duration-200" href="https://2022.privacyday.net/" target="_blank">2022</a>
+                        <a class="text-[#00FEC6] hover:text-[#218A6B] transition-colors duration-200" href="https://2021.privacyday.net/" target="_blank">2021</a>
+                        <a class="text-[#00FEC6] hover:text-[#218A6B] transition-colors duration-200" href="https://2020.privacyday.net/" target="_blank">2020</a>
+                        <a class="text-[#00FEC6] hover:text-[#218A6B] transition-colors duration-200" href="https://2019.privacyday.net/" target="_blank">2019</a>
+                    </div>
+
+                    <a href="conference.html" class="text-[#00FEC6] hover:text-[#218A6B] transition-colors duration-200">О конференции</a>
+                </nav>
+            </aside>
+
+
+            <div class="space-y-[100px] min-[640px]:space-y-[150px]">
+                <div class="space-y-7">
+                    <h1 class="min-[640px]:max-w-[700px] min-[980px]:max-w-none text-[50px] min-[480px]:text-[75px] min-[960px]:text-[115px] min-[1200px]:text-[140px] animate-fadein  text-[#01150d] tracking-[-3px] leading-[0.8] font-medium -ml-[0.06em]">Приватность<br>в условиях ограничений</h1>
+                    <p class="max-w-[700px] animate-delay-200 text-[20px] min-[480px]:text-[26px] sm:text-[33px] leading-[1.1] text-[#083f2a] font-light animate-fadein">как государственное вмешательство влияет на технологии приватности</p>
+                </div>
+                <div class="space-y-[30px]  overflow-hidden ">
+                    <div class="animate-fadein animate-delay-300 border-y-4 border-[#093F2B] py-[30px] flex flex-col gap-8 sm:flex-row sm:items-start sm:gap-[75px]">
+                        <div class="space-y-2 shrink-0 w-[180px]">
+                            <p class=" whitespace-nowrap sm:whitespace-normal text-[20px] min-[480px]:text-[26px] sm:text-[32px] min-[960px]:text-[34px] text-[#083f2a] font-bold leading-none">28 января 2026</p>
+                            <p class=" whitespace-nowrap sm:whitespace-normal text-[16px] min-[481px]:text-[18px] text-[#083f2a] leading-[1.2] font-light">онлайн трансляция на YouTube</p>
+                        </div>
+                        
+                        <div>
+                            <p class="text-[20px] min-[480px]:text-[26px] sm:text-[32px] min-[960px]:text-[34px] text-[#083f2a] leading-[1.1] font-normal">Международная конференция о приватности, защите персональных данных и балансе между доступом к информации и тайной частной жизни</p>
+                        </div>
+                    </div>
+                   <a href="https://www.youtube.com/@privacyday2219" target="_blank" rel="noopener" class="  animate-fadeinup animate-delay-400 w-full flex items-center justify-center gap-3 font-normal text-[20px] min-[480px]:text-[26px] sm:text-[34px] py-4 rounded-[64px] bg-[#01150d] text-[#62f5be] whitespace-nowrap border border-transparent hover:bg-[#62f5be] hover:text-[#01150d] hover:border-[#01150d]" style="transition: opacity 1s cubic-bezier(0.19, 1, 0.22, 1), transform 1s cubic-bezier(0.19, 1, 0.22, 1), background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;">
+                        <span>Privacy Day на YouTube</span>
+                        <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path d="M16 8L20 12L16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Организаторы-->
+    <div id="organizations" class="mx-auto  max-w-[300px] min-[480px]:max-w-[460px] min-[640px]:max-w-[620px] min-[960px]:max-w-[930px] min-[1200px]:max-w-[1200px] mx-auto pb-9 px-[0px] min-[960px]:px-[20px] pt-[80px] space-y-[20px] min-[480px]:space-y-[28px] min-[640px]:space-y-[46px] min-[960px]:space-y-[80px]">
+        <h2 class="text-[#01150d] text-[40px] min-[480px]:text-[60px] font-semibold tracking-[-2px]">Организаторы</h2>
+
+            <div class=" org-item animate-fadein border-t-4 border-[#093F2B] pt-[30px] pb-[10px] flex flex-col gap-6 min-[480px]:flex-row min-[480px]:flex-wrap min-[480px]:justify-between min-[640px]:gap-16 min-[480px]:gap-4 min-[640px]:flex-nowrap min-[640px]:items-start min-[960px]:grid min-[960px]:grid-cols-[200px_1fr_auto] min-[960px]:items-start min-[960px]:gap-12">
+                <div class="shrink-0">
+                    <img class="w-[136px] min-[640px]:w-[153px] min-[960px]:w-[200px]  h-auto" src="images/rksglobal.svg" alt="RKS Global">
+                </div>
+                <div class="contents min-[640px]:flex min-[640px]:flex-col min-[640px]:gap-4 min-[960px]:contents">
+                    <p class="text-[#01150d] text-[16px] sm:text-[18px] leading-[22px] font-light order-2 min-[480px]:order-3 min-[480px]:basis-full min-[480px]:mt-1 min-[640px]:order-none min-[640px]:basis-auto min-[640px]:mt-0 min-[960px]:justify-self-center min-[960px]:text-left min-[960px]:max-w-[560px]">
+                        Продвижение и защита прав и свобод человека, развитие его возможностей в цифровой среде.
+                    </p>
+                    <div class="flex justify-between text-[#617800] order-3 min-[480px]:order-2 min-[480px]:ml-auto min-[480px]:self-start min-[640px]:order-none min-[640px]:ml-0 min-[960px]:justify-self-end ">
+                        <a class="flex justify-between text-[18px] items-center font-light" href="https://rks.global/" target="_blank">
+                            rks.global
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-narrow-right">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M5 12l14 0" />
+                                <path d="M15 16l4 -4" />
+                                <path d="M15 8l4 4" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" org-item animate-fadein border-t-4 border-[#093F2B] pt-[20px] pb-[20px] flex flex-col gap-6 min-[480px]:flex-row min-[480px]:flex-wrap min-[480px]:justify-between min-[640px]:gap-12 min-[480px]:gap-4 min-[480px]:items-start min-[640px]:flex-nowrap min-[640px]:items-start min-[960px]:grid min-[960px]:grid-cols-[255px_1fr_auto] min-[960px]:items-start min-[960px]:gap-12">
+                <div class="shrink-0 ">
+                    <img class="w-[162px] min-[960px]:w-[255px]  h-auto" src="images/digital.webp" alt="Digital Rights">
+                </div>
+                <div class="contents min-[640px]:flex min-[640px]:flex-col min-[640px]:gap-4 min-[960px]:contents">
+                    <p class="text-[#01150d] text-[16px] sm:text-[18px] leading-[22px] font-light text-left order-2 min-[480px]:order-3 min-[480px]:basis-full min-[480px]:mt-1 min-[640px]:order-none min-[640px]:basis-auto min-[640px]:mt-0 min-[960px]:justify-self-center min-[960px]:max-w-[560px]">
+                    Общественная организация, созданная для реализации проектов по защите цифровых прав человека и изучению Интернета на Евразийском пространстве
+                    </p>
+                    <div class="flex justify-between text-[#617800] order-3 min-[480px]:order-2 min-[480px]:ml-auto min-[480px]:self-start min-[640px]:order-none min-[640px]:ml-0 min-[960px]:justify-self-end">
+                        <a class="flex justify-between text-[18px] items-center font-light" href="https://digitalrights.asia/" target="_blank">
+                            digitalrights.asia
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-narrow-right">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M5 12l14 0" />
+                            <path d="M15 16l4 -4" />
+                            <path d="M15 8l4 4" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class=" org-item animate-fadein border-t-4 border-[#093F2B] pt-[1.875rem] pb-[12.5rem] flex flex-col gap-6 min-[480px]:flex-row min-[480px]:flex-wrap min-[480px]:justify-between min-[480px]:gap-4 min-[480px]:items-start min-[640px]:flex-nowrap min-[640px]:items-start min-[960px]:grid min-[960px]:grid-cols-[265px_1fr_auto] min-[960px]:items-start min-[960px]:gap-12">
+                <div class="shrink-0 ">
+                    <img class="w-[200px] min-[960px]:w-[265px]  h-auto" src="images/cyberhub.svg" alt="CyberHub">
+                </div>
+                <div class="contents min-[640px]:flex min-[640px]:flex-col min-[640px]:gap-4 min-[960px]:contents">
+                    <p class="text-[#01150d] text-[16px] sm:text-[18px] leading-[22px] font-light text-left order-2 min-[480px]:order-3 min-[480px]:basis-full min-[480px]:mt-1 min-[640px]:order-none min-[640px]:basis-auto min-[640px]:mt-0 min-[960px]:justify-self-center min-[960px]:max-w-[560px]">
+                    Команда реагирования на компьютерные чрезвычайные ситуации (CERT) для гражданского общества Армении — НПО, правозащитников, активистов, журналистов и независимых СМИ
+                    </p>
+                    <div class="flex justify-between text-[#617800] order-3 min-[480px]:order-2 min-[480px]:ml-auto min-[480px]:self-start min-[640px]:order-none min-[640px]:ml-0 min-[960px]:justify-self-end">
+                        <a class="flex justify-between text-[18px] items-center font-light" href="https://cyberhub.am/hy/" target="_blank">
+                            cyberhub.am
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-narrow-right">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M5 12l14 0" />
+                                <path d="M15 16l4 -4" />
+                                <path d="M15 8l4 4" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!--Контакты-->
+    <div id="contacts" class="bg-[rgb(1,21,13)] h-[97vh] flex flex-col ">
+        <div class="mx-auto max-w-[300px] min-[480px]:max-w-[460px] min-[640px]:max-w-[620px] min-[960px]:max-w-[930px] min-[1200px]:max-w-[1200px] pb-9 px-[0px] min-[960px]:px-[20px] flex flex-col flex-1">
+            <div class="leading-tight space-y-2">
+                <h2 class="animate-fadein text-[#01150d] text-[40px] min-[480px]:text-[60px] text-[#ffffff] font-semibold pt-[90px]">Контакты</h2>
+                <p class="animate-fadein animate-delay-200 text-[20px] text-[#ffffff] font-light max-w-[400px]">Хотите стать спикером или партнёром конференции? Напишите нам</p>
+            </div> 
+            <a href="mailto:info@rks.global" class="animate-fadeinup flex items-center gap-[20px] mt-auto">
+                <p class="text-[#62f5be] text-[50px] min-[480px]:text-[70px] min-[640px]:text-[90px] min-[960px]:text-[130px] min-[1200px]:text-[160px] font-light tracking-[-5px]">info@rks.global</p>
+                <svg class="shrink-0 w-[26px] h-[26px] min-[480px]:w-[44px] min-[480px]:h-[44px] min-[640px]:w-[55px] min-[640px]:h-[55px] min-[960px]:w-[93px] min-[960px]:h-[93px] min-[1200px]:w-[111px] min-[1200px]:h-[111px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111.00 110.93" aria-hidden="true">
+                    <defs></defs>
+                    <path fill="#62f5be" stroke="none" fill-opacity="1" stroke-width="1" stroke-opacity="1" d="M0.0005 103.0815C32.8686 70.2135 65.7367 37.3454 98.6049 4.4774C101.2153 7.0879 103.8258 9.6985 106.4362 12.309C73.5682 45.1771 40.7002 78.0451 7.8321 110.9132C5.2216 108.3026 2.611 105.6921 0.0005 103.0815ZM100.0218 69.5921C100.0467 50.0254 100.0715 30.4586 100.0964 10.8918C80.5297 10.9167 60.963 10.9416 41.3963 10.9664C41.4212 7.3117 41.446 3.6569 41.4709 0.0021C64.6427 0.0021 87.8145 0.0021 110.9864 0.0021C110.9864 23.1738 110.9864 46.3455 110.9864 69.5172C107.3315 69.5422 103.6767 69.5672 100.0218 69.5921Z"></path>
+                </svg>
+            </a>  
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/tailwindcss.min.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+</html>
